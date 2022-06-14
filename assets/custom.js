@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
     // initial top offset of the navigation 
        var stickyNavTop = $('.header-wrapper').offset().top;
@@ -20,7 +21,7 @@ $(document).ready(function() {
         }else{
         $(".layout--main-content").attr("style", "margin-top: 180px;");
         }
-*/
+
     };
 
     stickyNav();
@@ -37,3 +38,4 @@ $(document).ready(function() {
         stickyNav();
     });
 });
+*/
