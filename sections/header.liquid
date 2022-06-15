@@ -1,11 +1,11 @@
 <header class="header border-y items-center">
-  <div class="header_logo">
+  <div class = "header_logo mx-auto my-2 md:my-0 md:mr-auto md:ml-0" style="max-width: {{ section.settings.logo_width }}px;">
     {%-if section.settings.logo != blank %}
-      <a ref ="/" class = header__logo mx-auto my-2 md:my-0 md:mr-auto md:ml-0" style="max-width: {{ section.settings.logo_width }}px;">
-        <img src="{{ section.settings.logo | img_url: 'master'}}" alt="{{ shop.name }}">
+      <a href ="/" class = "header_logo" >
+        {{ section.settings.logo | image_url: width: 400 | image_tag: loading: 'lazy' }}
       </a>
     {%-else %}
-      <a href="/">
+      <a href="/" class = "header_logo title">
         {{ shop.name }}
       </a>
     {%-endif %}
