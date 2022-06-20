@@ -5,7 +5,7 @@ module.exports = {
     './layout/*.liquid',
     './assets/*.liquid',
     './sections/*.liquid',
-    './snipets/*.liquid',
+    './snippets/*.liquid',
     './templates/*.liquid',
     './templates/*.json',
     './templates/customers/*.liquid',
